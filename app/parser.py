@@ -4,7 +4,10 @@ import xml.etree.ElementTree as ET
 from io import StringIO
 
 def load_data(file):
-    file_type = file.name.split(".")[-1].lower()
+    try:
+        file_type = file.name.split(".")[-1].lower()
+    except AttributeError:
+        file_type = "csv"  # fallback para StringIO u otros objetos
 
     if file_type == "csv":
         df = pd.read_csv(file)
