@@ -1,6 +1,7 @@
 import streamlit as st
 from io import StringIO
 import pandas as pd
+import os
 from app.parser import load_data
 from app.transformer import semantic_transform, mapear_columnas_semanticas
 from app.visualizer import visualize_structure
@@ -35,10 +36,30 @@ if uploaded_file:
     # Paso 2: Transformación
     st.subheader("🔀 Transformación semántica")
     target_format = st.selectbox("Selecciona el formato de salida", ["CSV", "JSON", "XML"])
+
+    os.makedirs("outputs", exist_ok=True)
+
     transformed_str = semantic_transform(df, target_format)
+    file_ext = target_format.lower()
+    output_path = f"outputs/archivo_transformado.{file_ext}"
+
+    # Guardar el archivo localmente
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(transformed_str)
 
     st.success("Transformación completada")
     st.code(transformed_str, language=target_format.lower())
+
+    # Leer el archivo ya guardado como bytes
+    with open(output_path, "rb") as f:
+        transformed_bytes = f.read()
+
+    st.download_button(
+        label="📥 Descargar archivo transformado",
+        data=transformed_bytes,
+        file_name=f"archivo_transformado.{file_ext}",
+        mime="text/plain"
+    )
 
     # Paso 3: Validación de consistencia
     st.subheader("✅ Validación de consistencia estructural")
