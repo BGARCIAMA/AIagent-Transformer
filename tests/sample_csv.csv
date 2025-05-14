@@ -1,0 +1,4 @@
+"nombre_cliente,fecha_transacci—n,monto_total,numero_cuenta,estatus_pago"
+"Ana L—pez,2023-01-01,1500,ACC1234,PAGADO"
+"Luis G—mez,2023-01-02,3200,ACC5678,PENDIENTE"
+"Carmen Ruiz,2023-01-03,980,ACC9012,PAGADO"

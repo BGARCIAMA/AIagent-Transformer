@@ -1,8 +1,8 @@
 import streamlit as st
 from io import StringIO
-
+import pandas as pd
 from app.parser import load_data
-from app.transformer import semantic_transform
+from app.transformer import semantic_transform, mapear_columnas_semanticas
 from app.visualizer import visualize_structure
 from app.validator import validate_structure_consistency
 
@@ -19,6 +19,13 @@ uploaded_file = st.file_uploader("📁 Carga un archivo CSV, JSON o XML", type=[
 if uploaded_file:
     # Paso 1: Análisis inicial
     df, original_structure = load_data(uploaded_file)
+    # Detectar mapeo semántico antes de exportar
+    st.subheader("🧠 Mapeo semántico sugerido entre columnas")
+    mapeo = mapear_columnas_semanticas(original_structure, [
+        "cliente_nombre", "transaction_date", "total_amount"  # Puedes ajustar estos valores estándar
+    ])
+    st.json(mapeo)
+    st.table(pd.DataFrame(mapeo.items(), columns=["Columna original", "Columna destino sugerida"]))
     st.subheader("👀 Vista previa del archivo")
     st.dataframe(df.head())
 
@@ -43,6 +50,10 @@ if uploaded_file:
 
         st.write("Columnas coincidentes:", validation["matched_columns"])
         st.metric("Porcentaje de coincidencia", f"{validation['match_ratio'] * 100:.2f}%")
-        st.success("✅ Validación aprobada") if validation["passed"] else st.error("⚠️ Validación no aprobada")
+        if validation["passed"]:
+            st.success("✅ Validación aprobada")
+        else:
+            st.error("⚠️ Validación no aprobada")
+
     except Exception as e:
         st.error(f"No se pudo validar el archivo transformado: {e}")
