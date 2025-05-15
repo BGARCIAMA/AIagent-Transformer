@@ -9,7 +9,7 @@ from app.visualizer import visualize_structure
 from app.validator import validate_structure_consistency
 
 st.set_page_config(page_title="Data Transformer AI Agent", layout="wide")
-st.title("🔄 Data Transformer AI Agent")
+st.title("Data Transformer AI Agent")
 
 st.markdown("""
 Esta herramienta utiliza inteligencia artificial para transformar datos entre distintos formatos (CSV, JSON, XML), 
@@ -26,20 +26,20 @@ if uploaded_file:
         st.error(f"❌ Error al cargar el archivo: {e}")
         st.stop()
     # Detectar mapeo semántico antes de exportar
-    st.subheader("🧠 Mapeo semántico sugerido entre columnas")
+    st.subheader("- Mapeo semántico sugerido entre columnas")
     mapeo = mapear_columnas_semanticas(original_structure, [
         "cliente_nombre", "transaction_date", "total_amount"  # Puedes ajustar estos valores estándar
     ])
     st.json(mapeo)
     st.table(pd.DataFrame(mapeo.items(), columns=["Columna original", "Columna destino sugerida"]))
-    st.subheader("👀 Vista previa del archivo")
+    st.subheader("- Vista previa del archivo")
     st.dataframe(df.head())
 
-    st.subheader("🧬 Estructura detectada")
+    st.subheader("- Estructura detectada")
     visualize_structure(original_structure)
 
     # Paso 2: Transformación
-    st.subheader("🔀 Transformación semántica")
+    st.subheader("- Transformación semántica")
     target_format = st.selectbox("Selecciona el formato de salida", ["CSV", "JSON", "XML"])
 
     os.makedirs("outputs", exist_ok=True)
@@ -60,14 +60,14 @@ if uploaded_file:
         transformed_bytes = f.read()
 
     st.download_button(
-        label="📥 Descargar archivo transformado",
+        label="- Descargar archivo transformado",
         data=transformed_bytes,
         file_name=f"archivo_transformado.{file_ext}",
         mime="text/plain"
     )
 
     # Paso 3: Validación de consistencia
-    st.subheader("✅ Validación de consistencia estructural")
+    st.subheader("- Validación de consistencia estructural")
 
     try:
         # Simular archivo con nombre para que load_data sepa el formato
@@ -80,9 +80,9 @@ if uploaded_file:
         st.write("Columnas coincidentes:", validation["matched_columns"])
         st.metric("Porcentaje de coincidencia", f"{validation['match_ratio'] * 100:.2f}%")
         if validation["passed"]:
-            st.success("✅ Validación aprobada")
+            st.success("- Validación aprobada")
         else:
-            st.error("⚠️ Validación no aprobada")
+            st.error("❌ Validación no aprobada")
 
     except Exception as e:
         st.error(f"No se pudo validar el archivo transformado: {e}")

@@ -8,7 +8,7 @@ def validate_structure_consistency(original_cols, transformed_cols, threshold=0.
     - threshold: umbral mínimo (entre 0 y 1) de columnas coincidentes requerido para considerar válida la transformación.
 
     Retorna:
-    - Diccionario con:
+    Diccionario con:
         - matched_columns: columnas que se encuentran en ambos esquemas.
         - match_ratio: porcentaje de coincidencia.
         - passed: booleano indicando si supera el umbral.

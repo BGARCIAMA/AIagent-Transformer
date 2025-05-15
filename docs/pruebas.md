@@ -1,5 +1,5 @@
 
-# Pruebas con Diferentes Tipos de Datos
+# Pruebas con diferentes tipos de Datos
 
 Este documento presenta un conjunto de pruebas realizadas utilizando datos en distintos formatos y estructuras. El objetivo es validar el correcto funcionamiento del agente transformador en escenarios variados.
 

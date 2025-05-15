@@ -7,7 +7,7 @@ Este documento detalla el análisis de precisión realizado sobre los resultados
 
 - **Porcentaje de columnas correctamente mapeadas**
   - Se compararon columnas originales vs. columnas destino estándar esperadas.
-  - Se consideró una coincidencia válida cuando la similitud coseno fue > 0.7.
+  - Se consideró una coincidencia válida cuando la similitud coseno fuera > 0.7.
 
 - **Promedio de similitud coseno por par mapeado**
   - Resultado típico entre 0.78 y 0.92 para nombres con relación semántica directa.

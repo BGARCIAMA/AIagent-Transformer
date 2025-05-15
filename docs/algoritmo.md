@@ -1,7 +1,7 @@
 
 # Documentación de los Algoritmos de Transformación
 
-Este documento describe el funcionamiento interno de los componentes clave de la herramienta de transformación semántica de datos.
+Este documento (entregable 2) describe el funcionamiento interno de los componentes clave de la herramienta de transformación semántica de datos.
 
 ## 1. Análisis de Estructura (`parser.py`)
 - El módulo `parser.py` detecta automáticamente el tipo de archivo (CSV, JSON, XML).
@@ -27,5 +27,4 @@ Este documento describe el funcionamiento interno de los componentes clave de la
 - Permite cargar archivos, visualizar estructuras, aplicar transformación semántica y validar el resultado.
 - Muestra el mapeo detectado y permite exportar en múltiples formatos.
 
----
-Este documento cubre el Entregable 2: Documentación de los algoritmos de transformación.
+
