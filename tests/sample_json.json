@@ -1,0 +1,22 @@
+[
+  {
+    "cliente": {
+      "nombre": "Ana",
+      "correo": "ana@example.com"
+    },
+    "transaccion": {
+      "fecha": "2023-01-01",
+      "monto": 1500
+    }
+  },
+  {
+    "cliente": {
+      "nombre": "Luis",
+      "correo": "luis@example.com"
+    },
+    "transaccion": {
+      "fecha": "2023-01-02",
+      "monto": 3200
+    }
+  }
+]

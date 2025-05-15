@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<transacciones>
+  <transaccion>
+    <cliente>Blanca</cliente>
+    <fecha>2023-01-01</fecha>
+    <monto>1500</monto>
+  </transaccion>
+  <transaccion>
+    <cliente>Luis</cliente>
+    <fecha>2023-01-02</fecha>
+    <monto>3200</monto>
+  </transaccion>
+</transacciones>
