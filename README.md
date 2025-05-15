@@ -2,7 +2,7 @@
 
 Este proyecto implementa un agente inteligente capaz de transformar datos entre múltiples formatos (CSV, JSON, XML) sin perder su estructura semántica. Utiliza análisis estructural, embeddings semánticos y validadores de consistencia para permitir la interoperabilidad de datos en entornos financieros.
 
-![Flujo del Agente](docs/flujo.excalidraw)
+![Flujo del Agente](image.png)
 
 ## Funcionalidades
 - Carga y análisis de estructuras de datos desde distintos formatos.
