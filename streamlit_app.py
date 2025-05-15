@@ -2,6 +2,7 @@ import streamlit as st
 from io import StringIO
 import pandas as pd
 import os
+from io import BytesIO
 from app.parser import load_data
 from app.transformer import semantic_transform, mapear_columnas_semanticas
 from app.visualizer import visualize_structure
@@ -18,8 +19,12 @@ preservando su estructura semántica.
 uploaded_file = st.file_uploader("📁 Carga un archivo CSV, JSON o XML", type=["csv", "json", "xml"])
 
 if uploaded_file:
-    # Paso 1: Análisis inicial
-    df, original_structure = load_data(uploaded_file)
+    try:
+        # Paso 1: Análisis inicial
+        df, original_structure = load_data(uploaded_file)
+    except Exception as e:
+        st.error(f"❌ Error al cargar el archivo: {e}")
+        st.stop()
     # Detectar mapeo semántico antes de exportar
     st.subheader("🧠 Mapeo semántico sugerido entre columnas")
     mapeo = mapear_columnas_semanticas(original_structure, [
@@ -65,8 +70,11 @@ if uploaded_file:
     st.subheader("✅ Validación de consistencia estructural")
 
     try:
-        # Parseamos el archivo transformado nuevamente
-        df_transformed, transformed_structure = load_data(StringIO(transformed_str))
+        # Simular archivo con nombre para que load_data sepa el formato
+        fake_file = BytesIO(transformed_str.encode("utf-8"))
+        fake_file.name = f"archivo_transformado.{file_ext}"
+        df_transformed, transformed_structure = load_data(fake_file)
+
         validation = validate_structure_consistency(original_structure, transformed_structure)
 
         st.write("Columnas coincidentes:", validation["matched_columns"])

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <record>
+    <index>0</index>
+    <cliente_nombre>Ana López</cliente_nombre>
+    <fecha_transacción>2023-01-01</fecha_transacción>
+    <monto_total>1500</monto_total>
+    <numero_cuenta>ACC1234</numero_cuenta>
+    <estatus_pago>PAGADO</estatus_pago>
+  </record>
+  <record>
+    <index>1</index>
+    <cliente_nombre>Luis Gómez</cliente_nombre>
+    <fecha_transacción>2023-01-02</fecha_transacción>
+    <monto_total>3200</monto_total>
+    <numero_cuenta>ACC5678</numero_cuenta>
+    <estatus_pago>PENDIENTE</estatus_pago>
+  </record>
+  <record>
+    <index>2</index>
+    <cliente_nombre>Carmen Ruiz</cliente_nombre>
+    <fecha_transacción>2023-01-03</fecha_transacción>
+    <monto_total>980</monto_total>
+    <numero_cuenta>ACC9012</numero_cuenta>
+    <estatus_pago>PAGADO</estatus_pago>
+  </record>
+</data>

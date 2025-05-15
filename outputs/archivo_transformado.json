@@ -1,0 +1,23 @@
+[
+  {
+    "cliente_nombre":"Ana L\u00f3pez",
+    "fecha_transacci\u00f3n":"2023-01-01",
+    "monto_total":1500,
+    "numero_cuenta":"ACC1234",
+    "estatus_pago":"PAGADO"
+  },
+  {
+    "cliente_nombre":"Luis G\u00f3mez",
+    "fecha_transacci\u00f3n":"2023-01-02",
+    "monto_total":3200,
+    "numero_cuenta":"ACC5678",
+    "estatus_pago":"PENDIENTE"
+  },
+  {
+    "cliente_nombre":"Carmen Ruiz",
+    "fecha_transacci\u00f3n":"2023-01-03",
+    "monto_total":980,
+    "numero_cuenta":"ACC9012",
+    "estatus_pago":"PAGADO"
+  }
+]
