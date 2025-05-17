@@ -2,26 +2,602 @@
 <data>
   <record>
     <index>0</index>
-    <cliente_nombre>Ana López</cliente_nombre>
-    <fecha_transacción>2023-01-01</fecha_transacción>
-    <monto_total>1500</monto_total>
-    <numero_cuenta>ACC1234</numero_cuenta>
-    <estatus_pago>PAGADO</estatus_pago>
+    <cliente_nombre>Augusto Marcos Gálvez</cliente_nombre>
+    <monto_credito>2719110</monto_credito>
+    <plazo_meses>240</plazo_meses>
+    <tipo_credito>Cofinavit</tipo_credito>
+    <fecha_aprobacion>1709424000000</fecha_aprobacion>
+    <valor_propiedad>2806903</valor_propiedad>
+    <entidad>Guanajuato</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
   </record>
   <record>
     <index>1</index>
-    <cliente_nombre>Luis Gómez</cliente_nombre>
-    <fecha_transacción>2023-01-02</fecha_transacción>
-    <monto_total>3200</monto_total>
-    <numero_cuenta>ACC5678</numero_cuenta>
-    <estatus_pago>PENDIENTE</estatus_pago>
+    <cliente_nombre>Rosa Abigail Cisneros Ureña</cliente_nombre>
+    <monto_credito>2729084</monto_credito>
+    <plazo_meses>120</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1704931200000</fecha_aprobacion>
+    <valor_propiedad>2029626</valor_propiedad>
+    <entidad>Yucatán</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
   </record>
   <record>
     <index>2</index>
-    <cliente_nombre>Carmen Ruiz</cliente_nombre>
-    <fecha_transacción>2023-01-03</fecha_transacción>
-    <monto_total>980</monto_total>
-    <numero_cuenta>ACC9012</numero_cuenta>
-    <estatus_pago>PAGADO</estatus_pago>
+    <cliente_nombre>Rolando Luis Manuel Alcántar</cliente_nombre>
+    <monto_credito>2856330</monto_credito>
+    <plazo_meses>300</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1599436800000</fecha_aprobacion>
+    <valor_propiedad>2341093</valor_propiedad>
+    <entidad>Baja California Sur</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>3</index>
+    <cliente_nombre>Ignacio Córdova Irizarry</cliente_nombre>
+    <monto_credito>2192743</monto_credito>
+    <plazo_meses>180</plazo_meses>
+    <tipo_credito>Aliado</tipo_credito>
+    <fecha_aprobacion>1603584000000</fecha_aprobacion>
+    <valor_propiedad>3158231</valor_propiedad>
+    <entidad>Chiapas</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>4</index>
+    <cliente_nombre>Vicente Ramón Tapia Amador</cliente_nombre>
+    <monto_credito>610268</monto_credito>
+    <plazo_meses>300</plazo_meses>
+    <tipo_credito>Aliado</tipo_credito>
+    <fecha_aprobacion>1644278400000</fecha_aprobacion>
+    <valor_propiedad>3065604</valor_propiedad>
+    <entidad>San Luis Potosí</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>5</index>
+    <cliente_nombre>Ing. Sessa Gaitán</cliente_nombre>
+    <monto_credito>1232180</monto_credito>
+    <plazo_meses>180</plazo_meses>
+    <tipo_credito>Cofinavit</tipo_credito>
+    <fecha_aprobacion>1699660800000</fecha_aprobacion>
+    <valor_propiedad>2618163</valor_propiedad>
+    <entidad>Morelos</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>6</index>
+    <cliente_nombre>Abril Luevano</cliente_nombre>
+    <monto_credito>2734489</monto_credito>
+    <plazo_meses>180</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1605916800000</fecha_aprobacion>
+    <valor_propiedad>706081</valor_propiedad>
+    <entidad>Aguascalientes</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>7</index>
+    <cliente_nombre>Yeni Briseño</cliente_nombre>
+    <monto_credito>2070006</monto_credito>
+    <plazo_meses>300</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1616976000000</fecha_aprobacion>
+    <valor_propiedad>2261909</valor_propiedad>
+    <entidad>Aguascalientes</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>8</index>
+    <cliente_nombre>Teresa Arenas Carrillo</cliente_nombre>
+    <monto_credito>2503274</monto_credito>
+    <plazo_meses>360</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1705881600000</fecha_aprobacion>
+    <valor_propiedad>3256138</valor_propiedad>
+    <entidad>Hidalgo</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>9</index>
+    <cliente_nombre>Esperanza Noriega Mesa</cliente_nombre>
+    <monto_credito>1636074</monto_credito>
+    <plazo_meses>180</plazo_meses>
+    <tipo_credito>Tradicional</tipo_credito>
+    <fecha_aprobacion>1590019200000</fecha_aprobacion>
+    <valor_propiedad>710078</valor_propiedad>
+    <entidad>Nayarit</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>10</index>
+    <cliente_nombre>Mtro. Helena Dávila</cliente_nombre>
+    <monto_credito>2772355</monto_credito>
+    <plazo_meses>180</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1731196800000</fecha_aprobacion>
+    <valor_propiedad>2515631</valor_propiedad>
+    <entidad>Chihuahua</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>11</index>
+    <cliente_nombre>Barbara Cornelio Palomino</cliente_nombre>
+    <monto_credito>1739911</monto_credito>
+    <plazo_meses>300</plazo_meses>
+    <tipo_credito>Tradicional</tipo_credito>
+    <fecha_aprobacion>1687564800000</fecha_aprobacion>
+    <valor_propiedad>2719823</valor_propiedad>
+    <entidad>Veracruz de Ignacio de la Llave</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>12</index>
+    <cliente_nombre>Ing. Laura Zapata</cliente_nombre>
+    <monto_credito>778167</monto_credito>
+    <plazo_meses>180</plazo_meses>
+    <tipo_credito>Cofinavit</tipo_credito>
+    <fecha_aprobacion>1677024000000</fecha_aprobacion>
+    <valor_propiedad>2066976</valor_propiedad>
+    <entidad>Quintana Roo</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>13</index>
+    <cliente_nombre>Alicia Abel Mena Angulo</cliente_nombre>
+    <monto_credito>2638242</monto_credito>
+    <plazo_meses>180</plazo_meses>
+    <tipo_credito>Tradicional</tipo_credito>
+    <fecha_aprobacion>1733616000000</fecha_aprobacion>
+    <valor_propiedad>2004104</valor_propiedad>
+    <entidad>Hidalgo</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>14</index>
+    <cliente_nombre>Natividad Adán Bustos Ulibarri</cliente_nombre>
+    <monto_credito>829365</monto_credito>
+    <plazo_meses>300</plazo_meses>
+    <tipo_credito>Cofinavit</tipo_credito>
+    <fecha_aprobacion>1591142400000</fecha_aprobacion>
+    <valor_propiedad>2608187</valor_propiedad>
+    <entidad>Campeche</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>15</index>
+    <cliente_nombre>Sr(a). Micaela Sandoval</cliente_nombre>
+    <monto_credito>1287201</monto_credito>
+    <plazo_meses>300</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1723334400000</fecha_aprobacion>
+    <valor_propiedad>2259066</valor_propiedad>
+    <entidad>Tabasco</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>16</index>
+    <cliente_nombre>Yolanda Pérez del Río</cliente_nombre>
+    <monto_credito>1870455</monto_credito>
+    <plazo_meses>120</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1600041600000</fecha_aprobacion>
+    <valor_propiedad>2748815</valor_propiedad>
+    <entidad>Morelos</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>17</index>
+    <cliente_nombre>Martha Corral</cliente_nombre>
+    <monto_credito>2266891</monto_credito>
+    <plazo_meses>360</plazo_meses>
+    <tipo_credito>Cofinavit</tipo_credito>
+    <fecha_aprobacion>1627603200000</fecha_aprobacion>
+    <valor_propiedad>911955</valor_propiedad>
+    <entidad>Coahuila de Zaragoza</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>18</index>
+    <cliente_nombre>Reina Rendón</cliente_nombre>
+    <monto_credito>827069</monto_credito>
+    <plazo_meses>360</plazo_meses>
+    <tipo_credito>Aliado</tipo_credito>
+    <fecha_aprobacion>1641168000000</fecha_aprobacion>
+    <valor_propiedad>2809699</valor_propiedad>
+    <entidad>Puebla</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>19</index>
+    <cliente_nombre>Abel Jonás Bañuelos</cliente_nombre>
+    <monto_credito>2325573</monto_credito>
+    <plazo_meses>180</plazo_meses>
+    <tipo_credito>Cofinavit</tipo_credito>
+    <fecha_aprobacion>1664409600000</fecha_aprobacion>
+    <valor_propiedad>1510681</valor_propiedad>
+    <entidad>Nuevo León</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>20</index>
+    <cliente_nombre>Mauricio Tania Esparza Báez</cliente_nombre>
+    <monto_credito>1291743</monto_credito>
+    <plazo_meses>360</plazo_meses>
+    <tipo_credito>Aliado</tipo_credito>
+    <fecha_aprobacion>1739318400000</fecha_aprobacion>
+    <valor_propiedad>2207618</valor_propiedad>
+    <entidad>Sonora</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>21</index>
+    <cliente_nombre>Mtro. Camilo Valles</cliente_nombre>
+    <monto_credito>603355</monto_credito>
+    <plazo_meses>180</plazo_meses>
+    <tipo_credito>Tradicional</tipo_credito>
+    <fecha_aprobacion>1678665600000</fecha_aprobacion>
+    <valor_propiedad>742483</valor_propiedad>
+    <entidad>Puebla</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>22</index>
+    <cliente_nombre>Mariano Marcela Riojas</cliente_nombre>
+    <monto_credito>1762752</monto_credito>
+    <plazo_meses>120</plazo_meses>
+    <tipo_credito>Tradicional</tipo_credito>
+    <fecha_aprobacion>1709510400000</fecha_aprobacion>
+    <valor_propiedad>3355423</valor_propiedad>
+    <entidad>Guanajuato</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>23</index>
+    <cliente_nombre>Manuel Rincón Angulo</cliente_nombre>
+    <monto_credito>2781931</monto_credito>
+    <plazo_meses>300</plazo_meses>
+    <tipo_credito>Tradicional</tipo_credito>
+    <fecha_aprobacion>1696809600000</fecha_aprobacion>
+    <valor_propiedad>2633350</valor_propiedad>
+    <entidad>México</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>24</index>
+    <cliente_nombre>Gonzalo Adriana Porras</cliente_nombre>
+    <monto_credito>1896025</monto_credito>
+    <plazo_meses>300</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1678233600000</fecha_aprobacion>
+    <valor_propiedad>2911987</valor_propiedad>
+    <entidad>Baja California</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>25</index>
+    <cliente_nombre>Lic. Trinidad Perea</cliente_nombre>
+    <monto_credito>1970485</monto_credito>
+    <plazo_meses>300</plazo_meses>
+    <tipo_credito>Tradicional</tipo_credito>
+    <fecha_aprobacion>1595635200000</fecha_aprobacion>
+    <valor_propiedad>1001896</valor_propiedad>
+    <entidad>Distrito Federal</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>26</index>
+    <cliente_nombre>Sr(a). Sandra Jáquez</cliente_nombre>
+    <monto_credito>1489436</monto_credito>
+    <plazo_meses>360</plazo_meses>
+    <tipo_credito>Aliado</tipo_credito>
+    <fecha_aprobacion>1712275200000</fecha_aprobacion>
+    <valor_propiedad>2782048</valor_propiedad>
+    <entidad>Guanajuato</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>27</index>
+    <cliente_nombre>Graciela Quiñones Esquivel</cliente_nombre>
+    <monto_credito>1807371</monto_credito>
+    <plazo_meses>120</plazo_meses>
+    <tipo_credito>Tradicional</tipo_credito>
+    <fecha_aprobacion>1596585600000</fecha_aprobacion>
+    <valor_propiedad>1077095</valor_propiedad>
+    <entidad>Chiapas</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>28</index>
+    <cliente_nombre>José Macías Ramos</cliente_nombre>
+    <monto_credito>1417040</monto_credito>
+    <plazo_meses>360</plazo_meses>
+    <tipo_credito>Cofinavit</tipo_credito>
+    <fecha_aprobacion>1686528000000</fecha_aprobacion>
+    <valor_propiedad>671295</valor_propiedad>
+    <entidad>Coahuila de Zaragoza</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>29</index>
+    <cliente_nombre>Hermelinda Echeverría Castañeda</cliente_nombre>
+    <monto_credito>2048762</monto_credito>
+    <plazo_meses>360</plazo_meses>
+    <tipo_credito>Cofinavit</tipo_credito>
+    <fecha_aprobacion>1701734400000</fecha_aprobacion>
+    <valor_propiedad>1343974</valor_propiedad>
+    <entidad>Morelos</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>30</index>
+    <cliente_nombre>Amalia Conchita Escalante</cliente_nombre>
+    <monto_credito>2753882</monto_credito>
+    <plazo_meses>120</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1677628800000</fecha_aprobacion>
+    <valor_propiedad>1487121</valor_propiedad>
+    <entidad>Tamaulipas</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>31</index>
+    <cliente_nombre>Carla Collado Mejía</cliente_nombre>
+    <monto_credito>2419486</monto_credito>
+    <plazo_meses>120</plazo_meses>
+    <tipo_credito>Cofinavit</tipo_credito>
+    <fecha_aprobacion>1744675200000</fecha_aprobacion>
+    <valor_propiedad>1656731</valor_propiedad>
+    <entidad>Zacatecas</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>32</index>
+    <cliente_nombre>Paola Martínez Mata</cliente_nombre>
+    <monto_credito>1154811</monto_credito>
+    <plazo_meses>120</plazo_meses>
+    <tipo_credito>Aliado</tipo_credito>
+    <fecha_aprobacion>1670112000000</fecha_aprobacion>
+    <valor_propiedad>1425816</valor_propiedad>
+    <entidad>Guanajuato</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>33</index>
+    <cliente_nombre>Estela Niño</cliente_nombre>
+    <monto_credito>1027035</monto_credito>
+    <plazo_meses>120</plazo_meses>
+    <tipo_credito>Tradicional</tipo_credito>
+    <fecha_aprobacion>1721174400000</fecha_aprobacion>
+    <valor_propiedad>974705</valor_propiedad>
+    <entidad>Coahuila de Zaragoza</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>34</index>
+    <cliente_nombre>Ing. Lourdes Galarza</cliente_nombre>
+    <monto_credito>1148143</monto_credito>
+    <plazo_meses>300</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1734480000000</fecha_aprobacion>
+    <valor_propiedad>2456926</valor_propiedad>
+    <entidad>Quintana Roo</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>35</index>
+    <cliente_nombre>Mtro. David Robledo</cliente_nombre>
+    <monto_credito>2000942</monto_credito>
+    <plazo_meses>240</plazo_meses>
+    <tipo_credito>Tradicional</tipo_credito>
+    <fecha_aprobacion>1698451200000</fecha_aprobacion>
+    <valor_propiedad>2258845</valor_propiedad>
+    <entidad>Puebla</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>36</index>
+    <cliente_nombre>Lic. Débora Mascareñas</cliente_nombre>
+    <monto_credito>565725</monto_credito>
+    <plazo_meses>240</plazo_meses>
+    <tipo_credito>Tradicional</tipo_credito>
+    <fecha_aprobacion>1733097600000</fecha_aprobacion>
+    <valor_propiedad>2626793</valor_propiedad>
+    <entidad>Baja California</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>37</index>
+    <cliente_nombre>Gabino Calvillo Uribe</cliente_nombre>
+    <monto_credito>584654</monto_credito>
+    <plazo_meses>120</plazo_meses>
+    <tipo_credito>Aliado</tipo_credito>
+    <fecha_aprobacion>1732579200000</fecha_aprobacion>
+    <valor_propiedad>1154594</valor_propiedad>
+    <entidad>San Luis Potosí</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>38</index>
+    <cliente_nombre>Estela Aldo Varela</cliente_nombre>
+    <monto_credito>1453277</monto_credito>
+    <plazo_meses>240</plazo_meses>
+    <tipo_credito>Cofinavit</tipo_credito>
+    <fecha_aprobacion>1688428800000</fecha_aprobacion>
+    <valor_propiedad>747718</valor_propiedad>
+    <entidad>Distrito Federal</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>39</index>
+    <cliente_nombre>Horacio Casanova Mora</cliente_nombre>
+    <monto_credito>2454354</monto_credito>
+    <plazo_meses>240</plazo_meses>
+    <tipo_credito>Cofinavit</tipo_credito>
+    <fecha_aprobacion>1727913600000</fecha_aprobacion>
+    <valor_propiedad>1245263</valor_propiedad>
+    <entidad>Baja California Sur</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>40</index>
+    <cliente_nombre>Jaime Paola Parra Mena</cliente_nombre>
+    <monto_credito>2916182</monto_credito>
+    <plazo_meses>120</plazo_meses>
+    <tipo_credito>Tradicional</tipo_credito>
+    <fecha_aprobacion>1622419200000</fecha_aprobacion>
+    <valor_propiedad>2804664</valor_propiedad>
+    <entidad>Querétaro</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>41</index>
+    <cliente_nombre>Agustín Noelia Briseño</cliente_nombre>
+    <monto_credito>2870690</monto_credito>
+    <plazo_meses>240</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1660953600000</fecha_aprobacion>
+    <valor_propiedad>747443</valor_propiedad>
+    <entidad>Chihuahua</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>42</index>
+    <cliente_nombre>Emilio Casas</cliente_nombre>
+    <monto_credito>2928388</monto_credito>
+    <plazo_meses>360</plazo_meses>
+    <tipo_credito>Cofinavit</tipo_credito>
+    <fecha_aprobacion>1639267200000</fecha_aprobacion>
+    <valor_propiedad>2119163</valor_propiedad>
+    <entidad>Chiapas</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>43</index>
+    <cliente_nombre>Tania Mercedes Montemayor</cliente_nombre>
+    <monto_credito>1028178</monto_credito>
+    <plazo_meses>180</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1735516800000</fecha_aprobacion>
+    <valor_propiedad>973616</valor_propiedad>
+    <entidad>Tlaxcala</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>44</index>
+    <cliente_nombre>Olivia Georgina Sarabia Castañeda</cliente_nombre>
+    <monto_credito>1805416</monto_credito>
+    <plazo_meses>180</plazo_meses>
+    <tipo_credito>Cofinavit</tipo_credito>
+    <fecha_aprobacion>1621382400000</fecha_aprobacion>
+    <valor_propiedad>3354561</valor_propiedad>
+    <entidad>Nuevo León</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>45</index>
+    <cliente_nombre>Victoria Barrientos</cliente_nombre>
+    <monto_credito>2946609</monto_credito>
+    <plazo_meses>120</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1694822400000</fecha_aprobacion>
+    <valor_propiedad>1286976</valor_propiedad>
+    <entidad>Jalisco</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>46</index>
+    <cliente_nombre>Eloisa Duarte Laboy</cliente_nombre>
+    <monto_credito>1965689</monto_credito>
+    <plazo_meses>300</plazo_meses>
+    <tipo_credito>Aliado</tipo_credito>
+    <fecha_aprobacion>1711929600000</fecha_aprobacion>
+    <valor_propiedad>2014447</valor_propiedad>
+    <entidad>Aguascalientes</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>47</index>
+    <cliente_nombre>Lic. Carla Delgadillo</cliente_nombre>
+    <monto_credito>568148</monto_credito>
+    <plazo_meses>120</plazo_meses>
+    <tipo_credito>Fovissste</tipo_credito>
+    <fecha_aprobacion>1620864000000</fecha_aprobacion>
+    <valor_propiedad>3072189</valor_propiedad>
+    <entidad>Yucatán</entidad>
+    <estatus_pago>LIQUIDADO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>48</index>
+    <cliente_nombre>Luis Manuel Rosalia Ojeda</cliente_nombre>
+    <monto_credito>2325665</monto_credito>
+    <plazo_meses>300</plazo_meses>
+    <tipo_credito>Aliado</tipo_credito>
+    <fecha_aprobacion>1690934400000</fecha_aprobacion>
+    <valor_propiedad>717796</valor_propiedad>
+    <entidad>Coahuila de Zaragoza</entidad>
+    <estatus_pago>MOROSO</estatus_pago>
+    <comentarios/>
+  </record>
+  <record>
+    <index>49</index>
+    <cliente_nombre>Sr(a). Jorge Luis Cruz</cliente_nombre>
+    <monto_credito>756508</monto_credito>
+    <plazo_meses>180</plazo_meses>
+    <tipo_credito>Aliado</tipo_credito>
+    <fecha_aprobacion>1715472000000</fecha_aprobacion>
+    <valor_propiedad>1841082</valor_propiedad>
+    <entidad>Chihuahua</entidad>
+    <estatus_pago>VIGENTE</estatus_pago>
+    <comentarios/>
   </record>
 </data>

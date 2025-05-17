@@ -1,0 +1,51 @@
+id,nombre_cliente,monto_credito,plazo_meses,tasa_interes_anual,tipo_credito,fecha_aprobacion,valor_vivienda,entidad,estatus_pago
+3557,Augusto Marcos Gálvez,2719110,240,7.98,Cofinavit,2024-03-03,2806903,Guanajuato,LIQUIDADO
+9555,Rosa Abigail Cisneros Ureña,2729084,120,9.35,Fovissste,2024-01-11,2029626,Yucatán,VIGENTE
+7976,Rolando Luis Manuel Alcántar,2856330,300,10.84,Fovissste,2020-09-07,2341093,Baja California Sur,VIGENTE
+3034,Ignacio Córdova Irizarry,2192743,180,10.83,Aliado,2020-10-25,3158231,Chiapas,LIQUIDADO
+3252,Vicente Ramón Tapia Amador,610268,300,10.46,Aliado,2022-02-08,3065604,San Luis Potosí,LIQUIDADO
+3480,Ing. Sessa Gaitán,1232180,180,8.87,Cofinavit,2023-11-11,2618163,Morelos,LIQUIDADO
+7344,Abril Luevano,2734489,180,10.31,Fovissste,2020-11-21,706081,Aguascalientes,MOROSO
+1524,Yeni Briseño,2070006,300,9.41,Fovissste,2021-03-29,2261909,Aguascalientes,VIGENTE
+3402,Teresa Arenas Carrillo,2503274,360,12.36,Fovissste,2024-01-22,3256138,Hidalgo,LIQUIDADO
+2109,Esperanza Noriega Mesa,1636074,180,11.74,Tradicional,2020-05-21,710078,Nayarit,VIGENTE
+6538,Mtro. Helena Dávila,2772355,180,11.11,Fovissste,2024-11-10,2515631,Chihuahua,MOROSO
+7158,Barbara Cornelio Palomino,1739911,300,8.68,Tradicional,2023-06-24,2719823,Veracruz de Ignacio de la Llave,MOROSO
+8562,Ing. Laura Zapata,778167,180,8.78,Cofinavit,2023-02-22,2066976,Quintana Roo,LIQUIDADO
+7751,Alicia Abel Mena Angulo,2638242,180,7.7,Tradicional,2024-12-08,2004104,Hidalgo,MOROSO
+1828,Natividad Adán Bustos Ulibarri,829365,300,11.05,Cofinavit,2020-06-03,2608187,Campeche,VIGENTE
+7075,Sr(a). Micaela Sandoval,1287201,300,8.05,Fovissste,2024-08-11,2259066,Tabasco,LIQUIDADO
+5742,Yolanda Pérez del Río,1870455,120,9.7,Fovissste,2020-09-14,2748815,Morelos,VIGENTE
+5761,Martha Corral,2266891,360,8.51,Cofinavit,2021-07-30,911955,Coahuila de Zaragoza,VIGENTE
+6776,Reina Rendón,827069,360,11.98,Aliado,2022-01-03,2809699,Puebla,MOROSO
+8907,Abel Jonás Bañuelos,2325573,180,9.88,Cofinavit,2022-09-29,1510681,Nuevo León,MOROSO
+1778,Mauricio Tania Esparza Báez,1291743,360,10.32,Aliado,2025-02-12,2207618,Sonora,MOROSO
+6323,Mtro. Camilo Valles,603355,180,10.98,Tradicional,2023-03-13,742483,Puebla,MOROSO
+9590,Mariano Marcela Riojas,1762752,120,8.2,Tradicional,2024-03-04,3355423,Guanajuato,MOROSO
+3573,Manuel Rincón Angulo,2781931,300,10.52,Tradicional,2023-10-09,2633350,México,LIQUIDADO
+6780,Gonzalo Adriana Porras,1896025,300,10.2,Fovissste,2023-03-08,2911987,Baja California,VIGENTE
+8408,Lic. Trinidad Perea,1970485,300,8.52,Tradicional,2020-07-25,1001896,Distrito Federal,VIGENTE
+9768,Sr(a). Sandra Jáquez,1489436,360,12.21,Aliado,2024-04-05,2782048,Guanajuato,VIGENTE
+7998,Graciela Quiñones Esquivel,1807371,120,10.49,Tradicional,2020-08-05,1077095,Chiapas,VIGENTE
+6346,José Macías Ramos,1417040,360,10.97,Cofinavit,2023-06-12,671295,Coahuila de Zaragoza,MOROSO
+6620,Hermelinda Echeverría Castañeda,2048762,360,11.9,Cofinavit,2023-12-05,1343974,Morelos,VIGENTE
+4933,Amalia Conchita Escalante,2753882,120,10.62,Fovissste,2023-03-01,1487121,Tamaulipas,LIQUIDADO
+9038,Carla Collado Mejía,2419486,120,8.98,Cofinavit,2025-04-15,1656731,Zacatecas,LIQUIDADO
+8231,Paola Martínez Mata,1154811,120,8.03,Aliado,2022-12-04,1425816,Guanajuato,VIGENTE
+9567,Estela Niño,1027035,120,9.78,Tradicional,2024-07-17,974705,Coahuila de Zaragoza,VIGENTE
+3397,Ing. Lourdes Galarza,1148143,300,8.59,Fovissste,2024-12-18,2456926,Quintana Roo,LIQUIDADO
+6778,Mtro. David Robledo,2000942,240,9.58,Tradicional,2023-10-28,2258845,Puebla,LIQUIDADO
+3980,Lic. Débora Mascareñas,565725,240,11.92,Tradicional,2024-12-02,2626793,Baja California,MOROSO
+5221,Gabino Calvillo Uribe,584654,120,9.12,Aliado,2024-11-26,1154594,San Luis Potosí,LIQUIDADO
+6316,Estela Aldo Varela,1453277,240,8.11,Cofinavit,2023-07-04,747718,Distrito Federal,MOROSO
+5692,Horacio Casanova Mora,2454354,240,9.28,Cofinavit,2024-10-03,1245263,Baja California Sur,MOROSO
+3579,Jaime Paola Parra Mena,2916182,120,12.03,Tradicional,2021-05-31,2804664,Querétaro,MOROSO
+7084,Agustín Noelia Briseño,2870690,240,8.86,Fovissste,2022-08-20,747443,Chihuahua,MOROSO
+4411,Emilio Casas,2928388,360,10.74,Cofinavit,2021-12-12,2119163,Chiapas,MOROSO
+9549,Tania Mercedes Montemayor,1028178,180,7.5,Fovissste,2024-12-30,973616,Tlaxcala,VIGENTE
+9420,Olivia Georgina Sarabia Castañeda,1805416,180,9.26,Cofinavit,2021-05-19,3354561,Nuevo León,LIQUIDADO
+9726,Victoria Barrientos,2946609,120,9.02,Fovissste,2023-09-16,1286976,Jalisco,MOROSO
+1776,Eloisa Duarte Laboy,1965689,300,8.32,Aliado,2024-04-01,2014447,Aguascalientes,LIQUIDADO
+3845,Lic. Carla Delgadillo,568148,120,10.17,Fovissste,2021-05-13,3072189,Yucatán,LIQUIDADO
+2284,Luis Manuel Rosalia Ojeda,2325665,300,9.92,Aliado,2023-08-02,717796,Coahuila de Zaragoza,MOROSO
+9890,Sr(a). Jorge Luis Cruz,756508,180,10.96,Aliado,2024-05-12,1841082,Chihuahua,VIGENTE
